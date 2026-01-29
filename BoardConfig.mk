@@ -145,6 +145,8 @@ TW_USE_TOOLBOX := true
 TW_EXTRA_LANGUAGES := true
 TARGET_USES_MKE2FS := true
 TW_OZIP_DECRYPT_KEY := 0000
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := 160
 TW_INCLUDE_LOGICAL := my_product my_engineering my_company my_carrier my_region \
 					my_heytap my_stock my_preload my_bigball my_manifest
 
