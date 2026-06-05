@@ -26,6 +26,18 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from sm8250_ac device
 $(call inherit-product, device/oplus/sm8250_ac/device.mk)
 
+# OFOX Screen
+OF_SCREEN_H := 2400
+OF_STATUS_H := 141
+OF_STATUS_INDENT_LEFT := 160
+OF_STATUS_INDENT_RIGHT := 20
+
+# OFOX Other
+OF_ENABLE_LPTOOLS := 1
+OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
+OF_FORCE_PREBUILT_KERNEL := 1
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sm8250_ac
 PRODUCT_NAME := twrp_sm8250_ac
