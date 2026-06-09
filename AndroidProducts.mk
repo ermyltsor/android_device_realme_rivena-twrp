@@ -17,6 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_bitra.mk
+    $(LOCAL_DIR)/twrp_sm8250_ac.mk
 
-COMMON_LUNCH_CHOICES := twrp_bitra-eng
+COMMON_LUNCH_CHOICES := twrp_sm8250_ac-eng

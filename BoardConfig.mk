@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/bitra
+DEVICE_PATH := device/oplus/sm8250_ac
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -43,9 +43,6 @@ TARGET_USES_64_BIT_BINDER := true
 
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
-
-# Assert
-TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,RMX3370,bitra
 
 # Bootloader
 PRODUCT_PLATFORM := kona
